@@ -13,16 +13,16 @@ class Heroi {
      
 function tipoDeAtaque(tipo) {
     switch (tipo) {
-            case 'mago':
-                return 'magia';
-            case 'guerreiro':
-                return 'espada';  
-            case 'monge':
-                return 'artes marciais';
-            case 'ninja':
-                return 'shuriken';
-            default:
-                return 'um ataque indefinido';
+        case 'mago':
+            return 'magia';
+        case 'guerreiro':
+            return 'espada';  
+        case 'monge':
+            return 'artes marciais';
+        case 'ninja':
+            return 'shuriken';
+        default:
+            return 'um ataque indefinido';
         }
 }
     
